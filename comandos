@@ -1,0 +1,7 @@
+composer du  == depois de alterar o composer.json
+
+vendor\bin\phpunit tests --filter=test_if_validate  --colors  == rodar um teste
+
+vendor\bin\phpunit tests --filter=validate  --colors == rodar os testes dessa pasta
+
+vendor\bin\phpunit --testsuite=tests   == rodar todos os testes da pasta tests com o arquivo xml

@@ -1,0 +1,21 @@
+{
+    "name": "rodolfo/phpunit",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "carlos"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.3"
+    }
+}
